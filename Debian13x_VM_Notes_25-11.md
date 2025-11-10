@@ -126,15 +126,14 @@ ringbuffer.
 
 (code and commands copied from 2nd link)
 
-Edit the WirePlumber configuration as follows
+> Edit the WirePlumber configuration as follows
 
 ```
 mkdir -p ~/.config/wireplumber/wireplumber.conf.d/
 cd ~/.config/wireplumber/wireplumber.conf.d
 ```
 
-Then make ~/.config/wireplumber/wireplumber.conf.d/50-alsa-config.conf in an editor and
-add:
+> Then make ~/.config/wireplumber/wireplumber.conf.d/50-alsa-config.conf in an editor and add:
 
 ```
 monitor.alsa.rules = [
@@ -157,4 +156,6 @@ monitor.alsa.rules = [
 
 ```
 
-Afterwards, restart everything via "systemctl --user restart wireplumber pipewire pipewire-pulse"
+> Afterwards, restart everything via "systemctl --user restart wireplumber pipewire pipewire-pulse"
+
+memo: I'm so glad this is solved for me
