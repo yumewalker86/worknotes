@@ -106,8 +106,14 @@ sudo apt install curl
 
 ### Change keyboard shortcut to open worknotes using Neovim
 
+To open certain file with a command:
 ```
 gnome-terminal --maximize --command="nvim /path/to/filename"
+```
+
+To start GNOME Terminal at a particular directory:
+```
+gnome-terminal --working-directory=/path/to/dir
 ```
 
 ### (Solved) Crackling Sound / Stuttering Audio
