@@ -165,3 +165,8 @@ monitor.alsa.rules = [
 > Afterwards, restart everything via "systemctl --user restart wireplumber pipewire pipewire-pulse"
 
 memo: I'm so glad this is solved for me
+
+
+## 2025-11-11
+
+Cleared a drive for this VM.
