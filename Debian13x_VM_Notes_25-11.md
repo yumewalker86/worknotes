@@ -106,7 +106,7 @@ sudo apt install curl
 
 ### Change keyboard shortcut to open worknotes using Neovim
 
-To open certain file with a command:
+To open certain file with a command and maximize window:
 ```
 gnome-terminal --maximize --command="nvim /path/to/filename"
 ```
