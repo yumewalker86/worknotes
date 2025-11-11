@@ -170,3 +170,8 @@ memo: I'm so glad this is solved for me
 ## 2025-11-11
 
 Cleared a drive for this VM.
+
+
+## 2025-11-12
+
+- The Truman Show (1998)
