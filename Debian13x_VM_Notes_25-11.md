@@ -185,3 +185,6 @@ Cleared a drive for this VM.
 - [ ] Set "Alt + Number(1 to 5)" for window 0 to 4 in tmux
 - [ ] Set shutdown shortcut for this VM
 
+### Other Memos
+
+- [Strikesthrough](https://en.wikipedia.org/wiki/Strikethrough)
