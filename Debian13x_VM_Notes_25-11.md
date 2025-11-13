@@ -176,3 +176,12 @@ Cleared a drive for this VM.
 
 - The Truman Show (1998)
   - https://en.wikipedia.org/wiki/The_Truman_Show
+
+## 2025-11-14
+
+### TODO:
+
+- [ ] Install tmux
+- [ ] Set "Alt + Number(1~5)" for window 0~4 in tmux
+- [ ] Set shutdown shortcut for this VM
+
