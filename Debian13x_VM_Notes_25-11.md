@@ -104,11 +104,30 @@ apt-cache search --names-only
 sudo apt install curl
 ```
 
-### Change keyboard shortcut to open worknotes using Neovim
+### (old ver)Change keyboard shortcut to open worknotes using Neovim
 
 To open certain file with a command and maximize window:
 ```
 gnome-terminal --maximize --command="nvim /path/to/filename"
+```
+
+To start GNOME Terminal at a particular directory:
+```
+gnome-terminal --working-directory=/path/to/dir
+```
+
+### (old ver)Change keyboard shortcut to open worknotes using Neovim
+
+25-1114 found this  message:
+
+```
+# Option “--command” is deprecated and might be removed in a later version of gnome-terminal.
+# Use “-- ” to terminate the options and put the command line to execute after it.
+```
+
+To open certain file with a command and maximize window:
+```
+gnome-terminal --maximize -- nvim /path/to/filename
 ```
 
 To start GNOME Terminal at a particular directory:
