@@ -116,7 +116,7 @@ To start GNOME Terminal at a particular directory:
 gnome-terminal --working-directory=/path/to/dir
 ```
 
-### (old ver)Change keyboard shortcut to open worknotes using Neovim
+### Change keyboard shortcut to open worknotes using Neovim
 
 25-1114 found this  message:
 
