@@ -204,7 +204,45 @@ Cleared a drive for this VM.
 
 ### TODO
 
-- [ ] Install tmux
-- [ ] Set "Alt + Number(1 to 5)" for window 0 to 4 in tmux
-- [ ] Set shutdown shortcut for this VM
+- [x] Install tmux
+- [x] Set "Alt + Number(1 to 5)" for window 0 to 4 in tmux
+- [x] Set shutdown shortcut for this VM
 
+### Install tmux
+
+```
+sudo apt install tmux
+```
+
+[Keyboard shortcut for Xfce shutdown?](https://forums.linuxmint.com/viewtopic.php?t=263504)
+
+```bash
+systemctl poweroff
+```
+
+Set "Alt + number" shortcut:
+
+[Making TMUX use Alt+Num to select window](https://superuser.com/questions/680238/making-tmux-use-altnum-to-select-window)
+
+```
+# switch windows alt+number
+bind-key -n M-1 select-window -t 1
+bind-key -n M-2 select-window -t 2
+bind-key -n M-3 select-window -t 3
+bind-key -n M-4 select-window -t 4
+bind-key -n M-5 select-window -t 5
+bind-key -n M-6 select-window -t 6
+bind-key -n M-7 select-window -t 7
+bind-key -n M-8 select-window -t 8
+bind-key -n M-9 select-window -t 9
+```
+
+Modify conf. above as follow:
+
+```
+bind-key -n M-1 select-window -t 0
+bind-key -n M-2 select-window -t 1
+bind-key -n M-3 select-window -t 2
+bind-key -n M-4 select-window -t 3
+bind-key -n M-5 select-window -t 4
+```
