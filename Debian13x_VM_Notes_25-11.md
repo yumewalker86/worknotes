@@ -135,6 +135,12 @@ To start GNOME Terminal at a particular directory:
 gnome-terminal --working-directory=/path/to/dir
 ```
 
+### Start Gnome termianl in full screen
+
+```
+gnome-terminal --full-screen
+```
+
 ### (Solved) Crackling Sound / Stuttering Audio
 
 Where I found some possible solution:
