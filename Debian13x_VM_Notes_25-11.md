@@ -206,6 +206,7 @@ Cleared a drive for this VM.
 
 ### Other Memos
 
+- To live in a conscious way. To live consciously.
 - [Strikesthrough](https://en.wikipedia.org/wiki/Strikethrough)
 
 ### TODO
