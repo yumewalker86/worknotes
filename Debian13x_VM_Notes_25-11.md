@@ -135,6 +135,11 @@ To start GNOME Terminal at a particular directory:
 gnome-terminal --working-directory=/path/to/dir
 ```
 
+Open  a  tab  in  the  window  with  the  given  profile.
+```
+gnome-terminal --tab-with-profile=PROFILENAME
+```
+
 ### Start Gnome termianl in full screen
 
 ```
@@ -253,3 +258,7 @@ bind-key -n M-3 select-window -t 2
 bind-key -n M-4 select-window -t 3
 bind-key -n M-5 select-window -t 4
 ```
+
+## 2025-11-17
+
+I think it's time for me to do some web projects.
