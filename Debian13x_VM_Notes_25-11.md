@@ -262,3 +262,5 @@ bind-key -n M-5 select-window -t 4
 ## 2025-11-17
 
 I think it's time for me to do some web projects.
+
+Learn JavaScript (again).
