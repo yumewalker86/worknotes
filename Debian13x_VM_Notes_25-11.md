@@ -1,94 +1,75 @@
 # Debian 13x VM Notes 25-11
 
-## 2025-11-07
+## 2025-11-17
 
-Setup this Debian 13 VM with VMware. 
+I think it's time for me to do some web projects.
 
-Some problems still there, but it's good enough for coding and coding/streaming. 
+Learn JavaScript (again).
 
-The host is Windows 11.
 
-- "Ctrl + Alt" to switch to host.
-- "Ctrl + G" to switch to Guest.
-- Registered Gmail: yumewalker86
-- Registered Github: yumewalker86
-- installed Vim
+## 2025-11-14
 
-### Where does Cinnamon save custom key combinations?
+### Other Memos
 
-source: https://forums.linuxmint.com/viewtopic.php?t=315472
+- To live in a conscious way. To live consciously.
+- [Strikesthrough](https://en.wikipedia.org/wiki/Strikethrough)
 
-They are stored in the dconf database.
+### TODO
 
-To backup to a text file called ~/mykeybindings
+- [x] Install tmux
+- [x] Set "Alt + Number(1 to 5)" for window 0 to 4 in tmux
+- [x] Set shutdown shortcut for this VM
 
-```
-dconf dump /org/cinnamon/desktop/keybindings/ > mykeybindings
-```
-
-To reload on another machine running Cinnamon transfer the file to ~/mykeybindings on the other machine and run
+### Install tmux
 
 ```
-dconf load /org/cinnamon/desktop/keybindings/ < mykeybindings
+sudo apt install tmux
 ```
 
-### Removed some games that I won't play
+[Keyboard shortcut for Xfce shutdown?](https://forums.linuxmint.com/viewtopic.php?t=263504)
 
-I only kept Chess and Reversi.
-
-### Use custome Date format
-
-Default:
-
-```
-%A, %B %e, %H:%M
+```bash
+systemctl poweroff
 ```
 
-Custom:
+Set "Alt + number" shortcut:
+
+[Making TMUX use Alt+Num to select window](https://superuser.com/questions/680238/making-tmux-use-altnum-to-select-window)
 
 ```
-%Y/%m/%d | %H:%M
+# switch windows alt+number
+bind-key -n M-1 select-window -t 1
+bind-key -n M-2 select-window -t 2
+bind-key -n M-3 select-window -t 3
+bind-key -n M-4 select-window -t 4
+bind-key -n M-5 select-window -t 5
+bind-key -n M-6 select-window -t 6
+bind-key -n M-7 select-window -t 7
+bind-key -n M-8 select-window -t 8
+bind-key -n M-9 select-window -t 9
 ```
 
-### Installed Neovim
+Modify conf. above as follow:
 
 ```
-sudo apt install neovim
+bind-key -n M-1 select-window -t 0
+bind-key -n M-2 select-window -t 1
+bind-key -n M-3 select-window -t 2
+bind-key -n M-4 select-window -t 3
+bind-key -n M-5 select-window -t 4
 ```
 
-If you install this way, you usually get an older version. I got v0.10.4, where you usually see people using v0.11.x now (2025-11)
 
-- Using 'nvim' command for now.
-- To Learn: [Advent of Neovim](https://www.youtube.com/playlist?list=PLep05UYkc6wTyBe7kPjQFWVXTlhKeQejM)
+## 2025-11-12
 
-See how much I can implement.
-
-Command memo for "~/.config/nvimexample":
-```
-NVIM_APPNAME=nvimexample nvim
-```
-
-### To remove a single file from recent opened list
-
-source: https://forums.linuxmint.com/viewtopic.php?t=440547
-
-```
-~/.local/share/recently-used.xbel
-```
-
-### Create .bookmarks folder
-
-Collect bookmarks in markdown files
+- The Truman Show (1998)
+  - https://en.wikipedia.org/wiki/The_Truman_Show
 
 
-### Toggle Window Maximize
+## 2025-11-11
 
-Alt + F10
+Cleared a drive for this VM.
 
-
-## 2025-11-08
-
-Tutor to read: 2.2
 
 ## 2025-11-10
 
@@ -197,70 +178,94 @@ monitor.alsa.rules = [
 memo: I'm so glad this is solved for me
 
 
-## 2025-11-11
+## 2025-11-08
 
-Cleared a drive for this VM.
+Tutor to read: 2.2
 
 
-## 2025-11-12
+## 2025-11-07
 
-- The Truman Show (1998)
-  - https://en.wikipedia.org/wiki/The_Truman_Show
+Setup this Debian 13 VM with VMware. 
 
-## 2025-11-14
+Some problems still there, but it's good enough for coding and coding/streaming. 
 
-### Other Memos
+The host is Windows 11.
 
-- To live in a conscious way. To live consciously.
-- [Strikesthrough](https://en.wikipedia.org/wiki/Strikethrough)
+- "Ctrl + Alt" to switch to host.
+- "Ctrl + G" to switch to Guest.
+- Registered Gmail: yumewalker86
+- Registered Github: yumewalker86
+- installed Vim
 
-### TODO
+### Where does Cinnamon save custom key combinations?
 
-- [x] Install tmux
-- [x] Set "Alt + Number(1 to 5)" for window 0 to 4 in tmux
-- [x] Set shutdown shortcut for this VM
+source: https://forums.linuxmint.com/viewtopic.php?t=315472
 
-### Install tmux
+They are stored in the dconf database.
 
-```
-sudo apt install tmux
-```
-
-[Keyboard shortcut for Xfce shutdown?](https://forums.linuxmint.com/viewtopic.php?t=263504)
-
-```bash
-systemctl poweroff
-```
-
-Set "Alt + number" shortcut:
-
-[Making TMUX use Alt+Num to select window](https://superuser.com/questions/680238/making-tmux-use-altnum-to-select-window)
+To backup to a text file called ~/mykeybindings
 
 ```
-# switch windows alt+number
-bind-key -n M-1 select-window -t 1
-bind-key -n M-2 select-window -t 2
-bind-key -n M-3 select-window -t 3
-bind-key -n M-4 select-window -t 4
-bind-key -n M-5 select-window -t 5
-bind-key -n M-6 select-window -t 6
-bind-key -n M-7 select-window -t 7
-bind-key -n M-8 select-window -t 8
-bind-key -n M-9 select-window -t 9
+dconf dump /org/cinnamon/desktop/keybindings/ > mykeybindings
 ```
 
-Modify conf. above as follow:
+To reload on another machine running Cinnamon transfer the file to ~/mykeybindings on the other machine and run
 
 ```
-bind-key -n M-1 select-window -t 0
-bind-key -n M-2 select-window -t 1
-bind-key -n M-3 select-window -t 2
-bind-key -n M-4 select-window -t 3
-bind-key -n M-5 select-window -t 4
+dconf load /org/cinnamon/desktop/keybindings/ < mykeybindings
 ```
 
-## 2025-11-17
+### Removed some games that I won't play
 
-I think it's time for me to do some web projects.
+I only kept Chess and Reversi.
 
-Learn JavaScript (again).
+### Use custome Date format
+
+Default:
+
+```
+%A, %B %e, %H:%M
+```
+
+Custom:
+
+```
+%Y/%m/%d | %H:%M
+```
+
+### Installed Neovim
+
+```
+sudo apt install neovim
+```
+
+If you install this way, you usually get an older version. I got v0.10.4, where you usually see people using v0.11.x now (2025-11)
+
+- Using 'nvim' command for now.
+- To Learn: [Advent of Neovim](https://www.youtube.com/playlist?list=PLep05UYkc6wTyBe7kPjQFWVXTlhKeQejM)
+
+See how much I can implement.
+
+Command memo for "~/.config/nvimexample":
+```
+NVIM_APPNAME=nvimexample nvim
+```
+
+### To remove a single file from recent opened list
+
+source: https://forums.linuxmint.com/viewtopic.php?t=440547
+
+```
+~/.local/share/recently-used.xbel
+```
+
+### Create .bookmarks folder
+
+Collect bookmarks in markdown files
+
+
+### Toggle Window Maximize
+
+Alt + F10
+
+
