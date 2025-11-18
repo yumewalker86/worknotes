@@ -1,5 +1,9 @@
 # Debian 13x VM Notes 25-11
 
+## 2025-11-18 Tue.
+
+I need to pull myself together.
+
 ## 2025-11-17
 
 I think it's time for me to do some web projects.
