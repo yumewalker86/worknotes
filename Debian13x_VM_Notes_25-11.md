@@ -1,5 +1,13 @@
 # Debian 13x VM Notes 25-11
 
+## 2025-11-21 Fri.
+
+- Installed i3-wm
+
+```
+sudo apt install i3-wm
+```
+
 ## 2025-11-18 Tue.
 
 I need to pull myself together.
