@@ -12,6 +12,12 @@ I want to expand size of virtual hard drive. (done)
 
 ref: https://www.youtube.com/watch?v=NwpzYlfKnrY
 
+- Installed GParted
+
+```
+sudo apt install gparted
+```
+
 ## 2025-11-21 Fri.
 
 - Installed i3-wm
