@@ -1,5 +1,17 @@
 # Debian 13x VM Notes 25-11
 
+## 2025-11-26 Wed.
+
+- Installed GIMP
+
+```
+sudo apt install gimp
+```
+
+I want to expand size of virtual hard drive. (done)
+
+ref: https://www.youtube.com/watch?v=NwpzYlfKnrY
+
 ## 2025-11-21 Fri.
 
 - Installed i3-wm
