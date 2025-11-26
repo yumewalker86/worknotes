@@ -12,6 +12,12 @@ I want to expand size of virtual hard drive. (done)
 
 ref: https://www.youtube.com/watch?v=NwpzYlfKnrY
 
+Command to list partition tables:
+
+```
+fdisk -l
+```
+
 - Installed GParted
 
 ```
