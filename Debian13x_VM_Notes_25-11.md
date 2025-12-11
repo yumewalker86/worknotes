@@ -85,7 +85,7 @@ bind-key -n M-8 select-window -t 8
 bind-key -n M-9 select-window -t 9
 ```
 
-Modify conf. above as follow:
+My preferred settings, create "~/.tmux.conf" and modify above setting as following:
 
 ```
 bind-key -n M-1 select-window -t 0
