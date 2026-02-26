@@ -299,6 +299,8 @@ source: https://forums.linuxmint.com/viewtopic.php?t=440547
 
 Collect bookmarks in markdown files
 
+Idea from: https://unixdigest.com/articles/how-i-manage-my-bookmarks.html
+
 
 ### Toggle Window Maximize
 
