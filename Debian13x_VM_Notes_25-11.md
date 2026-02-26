@@ -48,7 +48,7 @@ Learn JavaScript (again).
 ### Other Memos
 
 - To live in a conscious way. To live consciously.
-- [Strikesthrough](https://en.wikipedia.org/wiki/Strikethrough)
+- [~~Strikesthrough~~](https://en.wikipedia.org/wiki/Strikethrough)
 
 ### TODO
 
